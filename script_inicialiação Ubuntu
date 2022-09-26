@@ -38,3 +38,8 @@ TimeoutStartSec=0
 
 [Install]
 WantedBy=default.target
+
+
+#4 habilitar inicialização junto com o sistema
+
+systemctl enable nome.service
